@@ -377,7 +377,7 @@ Other Style Guides
     });
 
     // good
-    [1, 2, 3].map(x => x + 1);
+    [1, 2, 3].map(x => x * (x + 1));
 
     // bad
     const flat = {};
